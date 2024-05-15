@@ -1,2 +1,2 @@
 # simonStupidGame
-building on a game
+building a fe game
