@@ -1,6 +1,6 @@
 
 body{
-    background-color: #0D2D8C;
+    background-color: rgb(23, 56, 83);
 }
 .container{
     background-color:#4144E0 ;
@@ -9,19 +9,24 @@ body{
     height: 90vh;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 h1{
     font-size: 4rem;
-    color: orangered;
+    color: orange;
     opacity: 0.85;
-    font-family: monospace;
-    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 0 4px 4px 0;
 }
 h2{
     font-size: 2.8rem;
     color: #e6f205;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+    box-shadow: 0 2px 2px 0;
 
 }
 button{
@@ -29,12 +34,13 @@ button{
     background-color: red;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    box-decoration-break: clone;
+    margin-top: 20px;
 }
 #plybtn{
     background-color: red;
     border-radius: 12%;
-    margin-top: 80px;
+    margin-top: 40px;
+    width: 80px;
 }
 .flex{
     display: flex;
@@ -44,6 +50,7 @@ button{
 }
 p,h3{
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 p{
     color: #e6f205;
