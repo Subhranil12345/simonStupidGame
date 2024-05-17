@@ -20,7 +20,6 @@ body{
 }
 .red{
     background-color: red;
-    box-shadow: 0 4px 4px 0 red;
 }
 .yellow{
     background-color: yellow;
@@ -28,11 +27,9 @@ body{
 }
 .green{
     background-color: green;
-    box-shadow: 0 4px 4px 0 green;
 }
 .blue{
     background-color: blue;
-    box-shadow: 0 4px 4px 0 blue;
 }
 h1{
     text-align: center;
@@ -46,4 +43,9 @@ ul,li{
     font-family: monospace;
     color: #e6f205;
     font-size: 1rem;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: orangered;
 }
